@@ -3,8 +3,8 @@
 set -e
 set -o pipefail
 
-PrivateClusterFile=/root/k8s-acsengine/kubeconfig.privatecluster.json
-PublicClusterFile=/root/k8s-acsengine/kubeconfig.publiccluster.json
+PrivateClusterFile=$HOME/k8s-acsengine/kubeconfig.privatecluster.json
+PublicClusterFile=$HOME/k8s-acsengine/kubeconfig.publiccluster.json
 
 while [[ $# -gt 0 ]]
 do
